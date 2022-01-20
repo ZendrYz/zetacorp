@@ -1,0 +1,27 @@
+{
+  "name": "zetacorp",
+  "version": "2.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "manage-maliciousdb": "^1.1.0",
+    "megadb": "^3.4.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.13.9",
+    "os": "^0.1.2",
+    "sourcebin": "^4.2.5",
+    "unique-string": "^3.0.0",
+    "util": "^0.12.4"
+  }
+}
