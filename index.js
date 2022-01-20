@@ -77,7 +77,7 @@ for (const file of readdirSync('./eventos')) {
     }
 }
 try {
-    zetacorp.login('ODA5NTA2Mjc5OTk0NDI1NDU1.YCWFeQ.3LFx0iWXar9HLVGJkCMzIJFWpHQ')
+    zetacorp.login(process.env.TOKEN)
 } catch {
     console.log('Hubo un error iniciando sesión')
 }
